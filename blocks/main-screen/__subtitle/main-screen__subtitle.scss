@@ -1,0 +1,29 @@
+.main-screen__subtitle {
+  text-transform: uppercase;
+  font-size: 19px;
+  line-height: 28px;
+  margin: 0 0 0 calc((50% - 560px) / 2);
+  padding: 0;
+  max-width: 560px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .main-screen__subtitle {
+    margin: 0 auto 100px;
+  }
+  .main-screen__subtitle:first-of-type {
+    margin: 100px auto 0;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .main-screen__subtitle {
+    font-size: 11px;
+    line-height: 14px;
+    margin: 0 auto 60px;
+  }
+  .main-screen__subtitle:first-of-type {
+    margin: 60px auto 0;
+  }
+}

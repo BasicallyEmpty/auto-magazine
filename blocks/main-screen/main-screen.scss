@@ -1,0 +1,15 @@
+.main-screen {
+  width: 100%;
+  min-height: 840px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid #E1FD2C;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 719px) {
+  .main-screen {
+    min-height: initial;
+  }
+}

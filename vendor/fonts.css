@@ -1,0 +1,17 @@
+/** путь до шрифтов указан таким образом, чтобы он продолжал работать после компиляции в index.css **/
+
+@font-face {
+  src: url("../vendor/fonts/source-sans-pro-400.woff2") format('woff2'),
+       url("../vendor/fonts/source-sans-pro-400.woff") format('woff'),
+       url("../vendor/fonts/source-sans-pro-400.ttf") format('truetype');
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+}
+
+@font-face {
+  src: url("../vendor/fonts/source-sans-pro-300.woff2") format('woff2'),
+       url("../vendor/fonts/source-sans-pro-300.woff") format('woff'),
+       url("../vendor/fonts/source-sans-pro-300.ttf") format('truetype');
+  font-family: "Source Sans Pro";
+  font-weight: 300;
+}

@@ -1,0 +1,10 @@
+.footer__form-item_type_mail {
+  border: none;
+  width: 258px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__form-item_type_mail {
+    width: 198px;
+  }
+}

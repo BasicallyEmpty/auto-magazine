@@ -1,0 +1,22 @@
+.facts__description {
+  margin: 0;
+  padding: 40px 50px 45px;
+  width: 50%;
+  border-right: solid 1px #E1FD2C;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .facts__description {
+    border-right: none;
+    border-bottom: solid 1px #E1FD2C;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 719px) {
+  .facts__description {
+    padding:  18px 20px;
+  }
+}

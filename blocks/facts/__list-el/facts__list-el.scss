@@ -1,0 +1,19 @@
+.facts__list-el {
+  margin: 0 0 2px;
+  padding: 0;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 300;
+}
+
+.facts__list-el:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 719px) {
+  .facts__list-el {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 6px;
+  }
+}

@@ -1,0 +1,15 @@
+.press__button-set {
+  position: absolute;
+  margin: 0;
+  pad: 0;
+  display: flex;
+  bottom: 50px;
+  left: 50px;
+}
+
+@media screen and (max-width: 425px) {
+  .press__button-set {
+    bottom: 20px;
+    left: 20px;
+  }
+}

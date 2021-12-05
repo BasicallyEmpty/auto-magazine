@@ -1,0 +1,15 @@
+.footer__form {
+  margin: 64px 0 0;
+  padding: 0;
+  border: 1px solid #E1FD2C;
+  box-sizing: border-box;
+  width: 340px;
+  font-size: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__form {
+    margin: 60px 0 0;
+    width: 280px;
+  }
+}

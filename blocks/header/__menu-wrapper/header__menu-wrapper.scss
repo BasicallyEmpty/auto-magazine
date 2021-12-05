@@ -1,0 +1,17 @@
+.header__menu-wrapper {
+  margin: 0;
+  padding: 0;
+  transition: .3s ease-out;
+}
+
+@media screen and (max-width: 768px) {
+  .header__menu-wrapper {
+    position: absolute;
+    background-color: #191D2C;
+    border-bottom: 1px solid #E1FD2C;
+    width: 100%;
+    height: 70px;
+    transform: translateY(-100%);
+    z-index: 1;
+  }
+}

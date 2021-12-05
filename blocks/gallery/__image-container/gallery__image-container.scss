@@ -1,0 +1,16 @@
+.gallery__image-container {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  height: 100%;
+  border-right: solid 1px #E1FD2C;
+  box-sizing: border-box;
+  position: relative;
+}
+
+@media screen and (max-width: 1023px) {
+  .gallery__image-container {
+    width: 100%;
+    border: none;
+  }
+}
