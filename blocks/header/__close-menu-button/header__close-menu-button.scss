@@ -1,26 +1,20 @@
 .header__close-menu-button {
+  margin: 0;
+  padding: 0;
   display: none;
   background-image: url('../images/close.svg');
   background-color: #191D2C;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   width: 30px;
   height: 30px;
-  position: absolute;
-  top: 20px;
-  right: 30px;
   border: none;
   box-shadow: none;
+  position: relative;
 }
 
 @media screen and (max-width: 768px) {
   .header__close-menu-button {
     display: initial;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .header__close-menu-button {
-    right: 20px;
   }
 }

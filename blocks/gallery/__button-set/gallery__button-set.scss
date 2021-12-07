@@ -1,12 +1,9 @@
 .gallery__button-set {
   margin: 0;
   padding: 0;
-  position: absolute;
-  right: 50px;
-  bottom: 56px;
   display: flex;
   justify-content: space-between;
-  width: 114px;
+  width: 110px;
 }
 
 @media screen and (max-width: 719px) {

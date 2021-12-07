@@ -57,31 +57,37 @@
     </section>
     <section class="gallery" id="gallery">
       <div class="gallery__image-container">
-            <img src="images/photo-1.jpg" alt="Ретро-микроавтобус на дороге." class="gallery__image">
-        <h2 class="gallery__title">Галерея</h2>
-        <div class="gallery__button-set">
-          <button class="gallery__button gallery__button_type_left" type="button"></button>
-          <button class="gallery__button gallery__button_type_right" type="button"></button>
+        <img src="images/photo-1.jpg" alt="Ретро-микроавтобус на дороге." class="gallery__image">
+        <div class="gallery__title-wrapper">
+          <h2 class="title title_type_gallery">Галерея</h2>
+          <div class="gallery__button-set">
+            <button class="gallery__button gallery__button_type_prev" type="button"></button>
+            <button class="gallery__button gallery__button_type_next" type="button"></button>
+          </div>
         </div>
       </div>
     </section>
     <section class="press" id="press">
-      <h2 class="press__title">Пресса</h2>
+      <h2 class="title title_type_press">Пресса</h2>
       <div class="press__articles">
-        <p class="press__article press__article_visible" id="press__engadget"><span class="press__accent">Engadget:</span> VW’s e-BULLI concept shows how your classic van can become an EV.</p>
-        <p class="press__article" id="press__drive"><span class="press__accent">Drive.ru:</span> Вэн Volkswagen e-Bulli скрестил классику с современной техникой.</p>
-        <div class="press__button-set">
-          <button class="press__button press__button_active" id="button__engadget"></button>
-          <button class="press__button" id="button__drive"></button>
+        <div class="press__article-wrapper">
+          <p class="press__article press__article_visible" id="press__engadget"><span class="press__accent">Engadget:</span> VW’s e-BULLI concept shows how your classic van can become an EV.</p>
+          <p class="press__article" id="press__drive"><span class="press__accent">Drive.ru:</span> Вэн Volkswagen e-Bulli скрестил классику с современной техникой.</p>
         </div>
-        <a href="https://www.engadget.com/2020-03-20-vw-unveils-e-bulli-t1-electric-conversion.html" target="_blank" class="press__article-link">Читать</a>
+        <div class="press__buttons-wrapper">
+          <div class="press__button-set">
+            <button class="press__button press__button_active" id="button__engadget"></button>
+            <button class="press__button" id="button__drive"></button>
+          </div>
+          <a href="https://www.engadget.com/2020-03-20-vw-unveils-e-bulli-t1-electric-conversion.html" target="_blank" class="press__article-link">Читать</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="footer__subscription">
-      <h2 class="footer__subscription-title">Подписка</h2>
+      <h2 class="title">Подписка</h2>
       <p class="footer__subscription-subtitle">На новые спецвыпуски машин.</p>
       <form class="footer__form" name="subscribe">
         <fieldset class="footer__input-container">

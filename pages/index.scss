@@ -5,6 +5,9 @@
 
 @import '../blocks/page/page.scss';
 
+@import '../blocks/title/title.scss';
+@import '../blocks/title/_type/title_type_press.scss';
+
 @import '../blocks/header/header.scss';
 @import '../blocks/header/__menu-wrapper/header__menu-wrapper.scss';
 @import '../blocks/header/__menu-wrapper/_visible/header__menu-wrapper_visible.scss';
@@ -35,18 +38,19 @@
 @import '../blocks/gallery/gallery.scss';
 @import '../blocks/gallery/__image-container/gallery__image-container.scss';
 @import '../blocks/gallery/__image/gallery__image.scss';
-@import '../blocks/gallery/__title/gallery__title.scss';
+@import '../blocks/gallery/__title-wrapper/gallery__title-wrapper.scss';
 @import '../blocks/gallery/__button-set/gallery__button-set.scss';
 @import '../blocks/gallery/__button/gallery__button.scss';
-@import '../blocks/gallery/__button/_type/gallery__button_type_left.scss';
-@import '../blocks/gallery/__button/_type/gallery__button_type_right.scss';
+@import '../blocks/gallery/__button/_type/gallery__button_type_prev.scss';
+@import '../blocks/gallery/__button/_type/gallery__button_type_next.scss';
 
 @import '../blocks/press/press.scss';
-@import '../blocks/press/__title/press__title.scss';
 @import '../blocks/press/__articles/press__articles.scss';
+@import '../blocks/press/__article-wrapper/press__article-wrapper.scss';
 @import '../blocks/press/__article/press__article.scss';
 @import '../blocks/press/__article/_visible/press__article_visible.scss';
 @import '../blocks/press/__accent/press__accent.scss';
+@import '../blocks/press/__buttons-wrapper/press__buttons-wrapper.scss';
 @import '../blocks/press/__button-set/press__button-set.scss';
 @import '../blocks/press/__button/press__button.scss';
 @import '../blocks/press/__button/_active/press__button_active.scss';
@@ -54,7 +58,6 @@
 
 @import '../blocks/footer/footer.scss';
 @import '../blocks/footer/__subscription/footer__subscription.scss';
-@import '../blocks/footer/__subscription-title/footer__subscription-title.scss';
 @import '../blocks/footer/__subscription-subtitle/footer__subscription-subtitle.scss';
 @import '../blocks/footer/__form/footer__form.scss';
 @import '../blocks/footer/__input-container/footer__input-container.scss';

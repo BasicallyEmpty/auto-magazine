@@ -1,16 +1,13 @@
-.press__title {
-  margin: 0;
+.title_type_press {
   padding: 50px;
   width: 50%;
-  height: 500px;
+  min-height: 500px;
   box-sizing: border-box;
-  font-size: 46px;
-  line-height: 46px;
   border-right: 1px solid #E1FD2C;
 }
 
 @media screen and (max-width: 1023px) {
-  .press__title {
+  .title_type_press {
     display: none;
     border: none;
   }

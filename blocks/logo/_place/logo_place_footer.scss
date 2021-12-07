@@ -1,15 +1,15 @@
 .logo_place_footer {
-  position: absolute;
-  top: 50px;
-  right: 50px;
+  align-self: flex-end;
+  transform: translateX(0);
+  margin: initial;
+  align-self: initial;
 }
 
 @media screen and (max-width: 767px) {
   .logo_place_footer {
-    position: initial;
-    justify-self: center;
+    align-self: center;
     width: 280px;
     height: 58px;
-    margin: 100px 0 0;
+    margin: 80px auto 0;
   }
 }

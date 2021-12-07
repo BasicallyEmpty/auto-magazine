@@ -2,7 +2,14 @@
   width: 184px;
   height: 38px;
   align-self: center;
-  justify-self: center;
+  margin: auto;
+  transform: translateX(-145px);
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    transform: translateX(0);
+  }
 }
 
 @media screen and (max-width: 425px) {

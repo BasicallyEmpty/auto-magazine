@@ -1,5 +1,4 @@
 .press__article {
-  width: calc(100% - 50px * 2);
   align-self: center;
   margin: 0;
   padding: 0;
@@ -8,8 +7,6 @@
   line-height: 42px;
   font-weight: 300;
   position: absolute;
-  top: 50px;
-  left: 50px;
   display: none;
 }
 
@@ -17,8 +14,5 @@
   .press__article {
     font-size: 16px;
     line-height: 27px;
-    top: 20px;
-    left: 20px;
-    width: calc(100% - 20px * 2);
   }
 }
