@@ -1,0 +1,12 @@
+.header {
+  width: 100%;
+  min-height: 70px;
+  border-bottom: 1px solid #E1FD2C;
+  background-color: #191D2C;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+  z-index: 1;
+}

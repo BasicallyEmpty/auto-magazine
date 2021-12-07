@@ -1,0 +1,18 @@
+.press__article {
+  align-self: center;
+  margin: 0;
+  padding: 0;
+  color: #E1FD2C;
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 300;
+  position: absolute;
+  display: none;
+}
+
+@media screen and (max-width: 425px) {
+  .press__article {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}

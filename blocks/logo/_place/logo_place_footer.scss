@@ -1,0 +1,15 @@
+.logo_place_footer {
+  align-self: flex-end;
+  transform: translateX(0);
+  margin: initial;
+  align-self: initial;
+}
+
+@media screen and (max-width: 767px) {
+  .logo_place_footer {
+    align-self: center;
+    width: 280px;
+    height: 58px;
+    margin: 80px auto 0;
+  }
+}

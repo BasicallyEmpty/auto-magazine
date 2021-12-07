@@ -1,0 +1,69 @@
+@import '../vendor/normalize';
+@import '../vendor/fonts';
+
+@import '../blocks/document/document.scss';
+
+@import '../blocks/page/page.scss';
+
+@import '../blocks/title/title.scss';
+@import '../blocks/title/_type/title_type_press.scss';
+
+@import '../blocks/header/header.scss';
+@import '../blocks/header/__menu-wrapper/header__menu-wrapper.scss';
+@import '../blocks/header/__menu-wrapper/_visible/header__menu-wrapper_visible.scss';
+@import '../blocks/header/__menu/header__menu.scss';
+@import '../blocks/header/__close-menu-button/header__close-menu-button.scss';
+@import '../blocks/header/__menu-button/header__menu-button.scss';
+@import '../blocks/header/__link/header__link.scss';
+
+@import '../blocks/logo/logo.scss';
+@import '../blocks/logo/_place/logo_place_footer.scss';
+
+@import '../blocks/main-screen/main-screen.scss';
+@import '../blocks/main-screen/__title/main-screen__title.scss';
+@import '../blocks/main-screen/__subtitle/main-screen__subtitle.scss';
+@import '../blocks/main-screen/__image/main-screen__image.scss';
+@import '../blocks/main-screen/__read-more/main-screen__read-more.scss';
+
+@import '../blocks/facts/facts.scss';
+@import '../blocks/facts/__description/facts__description.scss';
+@import '../blocks/facts/__pros-cons/facts__pros-cons.scss';
+@import '../blocks/facts/__feats/facts__feats.scss';
+@import '../blocks/facts/__text/facts__text.scss';
+@import '../blocks/facts/__accent/facts__accent.scss';
+@import '../blocks/facts/__title/facts__title.scss';
+@import '../blocks/facts/__list/facts__list.scss';
+@import '../blocks/facts/__list-el/facts__list-el.scss';
+
+@import '../blocks/gallery/gallery.scss';
+@import '../blocks/gallery/__image-container/gallery__image-container.scss';
+@import '../blocks/gallery/__image/gallery__image.scss';
+@import '../blocks/gallery/__title-wrapper/gallery__title-wrapper.scss';
+@import '../blocks/gallery/__button-set/gallery__button-set.scss';
+@import '../blocks/gallery/__button/gallery__button.scss';
+@import '../blocks/gallery/__button/_type/gallery__button_type_prev.scss';
+@import '../blocks/gallery/__button/_type/gallery__button_type_next.scss';
+
+@import '../blocks/press/press.scss';
+@import '../blocks/press/__articles/press__articles.scss';
+@import '../blocks/press/__article-wrapper/press__article-wrapper.scss';
+@import '../blocks/press/__article/press__article.scss';
+@import '../blocks/press/__article/_visible/press__article_visible.scss';
+@import '../blocks/press/__accent/press__accent.scss';
+@import '../blocks/press/__buttons-wrapper/press__buttons-wrapper.scss';
+@import '../blocks/press/__button-set/press__button-set.scss';
+@import '../blocks/press/__button/press__button.scss';
+@import '../blocks/press/__button/_active/press__button_active.scss';
+@import '../blocks/press/__article-link/press__article-link.scss';
+
+@import '../blocks/footer/footer.scss';
+@import '../blocks/footer/__subscription/footer__subscription.scss';
+@import '../blocks/footer/__subscription-subtitle/footer__subscription-subtitle.scss';
+@import '../blocks/footer/__form/footer__form.scss';
+@import '../blocks/footer/__input-container/footer__input-container.scss';
+@import '../blocks/footer/__name-input-wrapper/footer__name-input-wrapper.scss';
+@import '../blocks/footer/__form-item/footer__form-item.scss';
+@import '../blocks/footer/__submit-button/footer__submit-button.scss';
+@import '../blocks/footer/__copyright-container/footer__copyright-container.scss';
+@import '../blocks/footer/__copyright/footer__copyright.scss';
+@import '../blocks/footer/__form-item/_type/footer__form-item_type_mail.scss'

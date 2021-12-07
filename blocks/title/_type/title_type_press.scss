@@ -1,0 +1,14 @@
+.title_type_press {
+  padding: 50px;
+  width: 50%;
+  min-height: 500px;
+  box-sizing: border-box;
+  border-right: 1px solid #E1FD2C;
+}
+
+@media screen and (max-width: 1023px) {
+  .title_type_press {
+    display: none;
+    border: none;
+  }
+}

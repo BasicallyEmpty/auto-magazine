@@ -1,0 +1,22 @@
+.footer__subscription {
+  margin: 0;
+  padding: 50px;
+  width: 50%;
+  min-height: 317px;
+  border-right: solid 1px #E1FD2C;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__subscription {
+    border: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__subscription {
+    width: 100%;
+    padding: 20px;
+    height: initial;
+  }
+}

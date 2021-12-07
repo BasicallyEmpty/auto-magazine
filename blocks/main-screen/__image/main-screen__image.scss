@@ -1,0 +1,22 @@
+.main-screen__image {
+  position: absolute;
+  right: 0;
+  top: 150px;
+  width: 50%;
+}
+
+@media screen and (max-width: 1023px) {
+  .main-screen__image {
+    position: initial;
+    margin: 0 auto;
+    width: calc(100% - 34px * 2);
+    max-width: 700px;
+    max-height: 510px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .main-screen__image {
+    width: calc(100% - 20px * 2);
+  }
+}

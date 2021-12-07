@@ -1,0 +1,17 @@
+.gallery__image {
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .gallery__image {
+    width: calc(100% - 34px * 2);
+    margin: 35px 34px 0;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .gallery__image {
+    width: calc(100% - 20px * 2);
+    margin: 20px 20px 0;
+  }
+}

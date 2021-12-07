@@ -1,0 +1,28 @@
+.header__menu-wrapper {
+  margin: 0;
+  padding: 0 50px;
+  box-sizing: border-box;
+  transition: .3s ease-out;
+}
+
+@media screen and (max-width: 768px) {
+  .header__menu-wrapper {
+    position: absolute;
+    background-color: #191D2C;
+    border-bottom: 1px solid #E1FD2C;
+    width: 100%;
+    min-height: 70px;
+    transform: translateY(-100%);
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 34px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__menu-wrapper {
+    padding: 0 20px;
+  }
+}

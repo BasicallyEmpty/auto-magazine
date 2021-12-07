@@ -1,0 +1,23 @@
+.facts__pros-cons {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1023px) {
+  .facts__pros-cons {
+    width: 100%;
+    min-height: 506px;
+  }
+}
+
+
+@media screen and (max-width: 719px) {
+  .facts__pros-cons {
+    flex-direction: column;
+    min-height: initial;
+  }
+}

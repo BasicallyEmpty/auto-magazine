@@ -1,0 +1,19 @@
+.press__button {
+  margin: 0 12px 0 0;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #E1FD2C;
+  background-color: #191D2C;
+  border-radius: 50%;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.press__button:last-of-type {
+  margin: 0;
+}
+
+.press__button:hover {
+  opacity: .6;
+  background-color: #E1FD2C;
+}

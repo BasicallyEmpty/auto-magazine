@@ -1,0 +1,15 @@
+.gallery__button-set {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+}
+
+@media screen and (max-width: 719px) {
+  .gallery__button-set {
+    width: 64px;
+    right: 20px;
+    bottom: 23px;
+  }
+}

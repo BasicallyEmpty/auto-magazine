@@ -1,0 +1,15 @@
+.facts {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-bottom: solid 1px #E1FD2C;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1023px) {
+  .facts {
+    flex-direction: column;
+  }
+}

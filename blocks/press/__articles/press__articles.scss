@@ -1,0 +1,24 @@
+.press__articles {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .press__articles {
+    width: 100%;
+    min-height: 500px;
+  }
+}
+
+
+
+@media screen and (max-width: 425px) {
+  .press__articles {
+    min-height: 287px;
+    padding: 20px;
+  }
+}
